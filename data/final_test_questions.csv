@@ -1,0 +1,11 @@
+test_id,kind,question,expected_answer,expected_document_id,expected_keywords
+T01,in_documents,How many days of annual leave does an employee get each year?,"18 days per leave year, accrued at 1.5 days per month.",DOC-001,18
+T02,in_documents,What is the minimum password length and how often must a standard password change?,12 characters; every 90 days for standard accounts.,DOC-002,12|90
+T03,in_documents,How soon must I report a lost or stolen laptop?,"Within 1 hour of discovery, to the IT Service Desk.",DOC-002,1 hour
+T04,in_documents,What is the hotel limit per night for a G5 manager in Chennai?,"INR 6,000 per night (Tier 1 city, grades G4 to G6).",DOC-003,"6,000"
+T05,in_documents,By when must I submit my expense claim after a trip?,Within 15 days of the end of the trip.,DOC-003,15 days
+T06,in_documents,How much group health insurance cover do new employees get?,"INR 5,00,000 from the first day.",DOC-006,"5,00,000"
+T07,in_documents,What are the first response and resolution targets for a P1 support ticket?,First response 30 minutes; resolution within 4 hours.,DOC-007,30 minutes|4 hours
+T08,off_topic,What is the capital of France?,Not found in the available documents,,
+T09,off_topic,Give me a recipe for chicken biryani.,Not found in the available documents,,
+T10,off_topic,What is the dress code for client meetings?,Not found in the available documents (company-sounding but not in any document),,

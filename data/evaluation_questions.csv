@@ -1,0 +1,67 @@
+question_id,question,expected_answer,expected_document_id,expected_section,expected_page,answerable,permission_test_case,user_role,question_type,expected_sheet
+Q001,How many days of annual leave does an employee get each year?,"18 days per leave year, accrued at 1.5 days per month.",DOC-001,5. Types of Leave,3,yes,allowed,employee,factual,
+Q002,What is the maximum number of consecutive days of casual leave I can take?,3 consecutive days.,DOC-001,5. Types of Leave > 5.2 Casual leave,4,yes,allowed,employee,factual,
+Q003,When do I need a medical certificate for sick leave?,When sick leave exceeds 2 consecutive working days.,DOC-001,5. Types of Leave > 5.3 Sick leave,4,yes,allowed,employee,factual,
+Q004,"How many late marks in a month lead to a leave deduction, and what is deducted?",Three late marks in a calendar month lead to a deduction of half a day of casual leave.,DOC-001,4. Working Hours and Attendance > 4.2 Grace period and late marks,3,yes,allowed,employee,factual,
+Q005,How much advance notice is required for leave longer than 5 consecutive days and who approves it?,7 working days; approved by the reporting manager and the department head.,DOC-001,6. Applying for and Approving Leave > 6.1 Planned leave,4,yes,allowed,employee,table_lookup,
+Q006,How many days of annual leave can be encashed at year end and at what rate?,"Up to 10 days, paid at basic salary divided by 26 per day.",DOC-001,9. Carry Forward and Encashment,5,yes,allowed,employee,factual,
+Q007,How long is paternity leave and by when must it be taken?,"10 working days, all within 6 months of the child's birth or adoption.",DOC-001,5. Types of Leave > 5.4 Maternity and paternity leave,4,yes,allowed,employee,factual,
+Q008,What is the maximum annual leave balance I can carry forward?,A total balance of 30 days; days above 30 lapse on 31 December unless encashed.,DOC-001,5. Types of Leave > 5.1 Annual leave,3,yes,allowed,employee,factual,
+Q009,How many days a week can I work remotely?,Up to 2 days per week with prior approval of the reporting manager.,DOC-001,8. Remote Work,5,yes,allowed,employee,factual,
+Q010,Who approves my leave if my manager is away?,The HRMS portal routes the request to the department head when the manager's delegate is not available.,DOC-001,12. Frequently Asked Questions > Who approves my leave if my manager is away?,6,yes,allowed,employee,factual,
+Q011,What is the minimum password length and how often must a standard password change?,12 characters; every 90 days for standard accounts.,DOC-002,4. Password and Authentication Standard,3,yes,allowed,employee,table_lookup,
+Q012,How quickly must a critical vulnerability be patched?,Within 48 hours.,DOC-002,9. Vulnerability and Patch Management,4,yes,allowed,it,table_lookup,
+Q013,How soon must I report a lost or stolen laptop?,"Within 1 hour of discovery, to the IT Service Desk.",DOC-002,5. Acceptable Use of Company Assets,3,yes,allowed,employee,factual,
+Q014,What happens after failed login attempts?,The account is locked for 30 minutes after 5 failed attempts.,DOC-002,4. Password and Authentication Standard,3,yes,allowed,employee,table_lookup,
+Q015,How long are backups retained and how often are they tested?,Backups are retained for 35 days and tested every quarter.,DOC-002,7. Data Protection and Encryption,4,yes,allowed,it,factual,
+Q016,After how many minutes of inactivity does my screen lock automatically?,5 minutes.,DOC-002,5. Acceptable Use of Company Assets,3,yes,allowed,employee,factual,
+Q017,What is the hotel limit per night for a G5 manager in Chennai?,"INR 6,000 per night (Tier 1 city, grades G4 to G6).",DOC-003,3. Eligibility by Grade,2,yes,allowed,employee,table_lookup,
+Q018,By when must I submit my expense claim after a trip?,Within 15 days of the end of the trip.,DOC-003,7. Claim Submission and Reimbursement > 7.1 Deadlines and documents,3,yes,allowed,employee,factual,
+Q019,What is the reimbursement rate for using my own car for business travel?,INR 12 per kilometre.,DOC-003,5. Reimbursable Expenses > 5.1 Local conveyance and mileage,3,yes,allowed,employee,factual,
+Q020,Who approves an international trip and how much lead time is needed?,Department head and Finance Controller; at least 15 working days.,DOC-003,2. Travel Approval,2,yes,allowed,employee,table_lookup,
+Q021,How big a travel advance can I get and when must it be settled?,Up to 80 percent of the estimated trip cost; settle within 7 working days of returning.,DOC-003,6. Advances,3,yes,allowed,employee,factual,
+Q022,For which expenses do I need an original invoice?,Every expense of INR 500 or more.,DOC-003,7. Claim Submission and Reimbursement > 7.1 Deadlines and documents,3,yes,allowed,employee,factual,
+Q023,What is the daily domestic meal allowance for grades G1 to G3?,INR 800.,DOC-003,3. Eligibility by Grade,2,yes,allowed,employee,table_lookup,
+Q024,"What approval and quotes are needed for a purchase of INR 5,00,000?",Three quotes; approved by the department head and the Finance Controller; purchase order with comparison sheet.,DOC-004,4. Purchase Approval Limits,2,yes,allowed,procurement,table_lookup,
+Q025,What are the standard supplier payment terms?,45 days from the date of a valid invoice.,DOC-004,5. Procure-to-Pay Process > 5.2 Payment terms,3,yes,allowed,finance,factual,
+Q026,What documents are matched in a three-way match?,"Invoice, purchase order and goods receipt note (GRN).",DOC-004,5. Procure-to-Pay Process > 5.1 Steps,2,yes,allowed,procurement,factual,
+Q027,What is the maximum value of a gift an employee may accept from a supplier?,"INR 2,000.",DOC-004,3. Principles,2,yes,allowed,procurement,factual,
+Q028,"What approval is needed for a purchase of INR 5,00,000?",Not found - the user is not authorised to access the Procurement Policy (DOC-004).,DOC-004,4. Purchase Approval Limits,2,yes,denied,employee,permission,
+Q029,"What are the minimum, midpoint and maximum salary for grade G5?","Minimum INR 11,00,000; midpoint INR 13,20,000; maximum INR 15,40,000.",DOC-011,3. Salary Bands,2,yes,allowed,hr,table_lookup,
+Q030,What increment range is recommended for a performance rating of 4?,8 to 11 percent.,DOC-011,5. Annual Increment Cycle,3,yes,allowed,hr,table_lookup,
+Q031,What is the salary band for grade G5?,Not found - the user is not authorised to access the Compensation Guidelines (DOC-011).,DOC-011,3. Salary Bands,2,yes,denied,employee,permission,
+Q032,What is the on-call allowance?,Not found - the user is not authorised to access the Compensation Guidelines (DOC-011).,DOC-011,7. Allowances and Other Payments,3,yes,denied,support,permission,
+Q033,What is the target variable pay for grade G7 and above?,"20 percent of fixed pay, with part deferred over 2 years.",DOC-011,4. Variable Pay and Bonus,2,yes,allowed,manager,table_lookup,
+Q034,How quickly must a P1 security incident be acknowledged and how often is it updated?,Acknowledge within 15 minutes; update every 30 minutes.,DOC-005,3. Severity Classification,N/A,yes,allowed,it,table_lookup,
+Q035,Within what time does the Company aim to notify a personal data breach?,Within 72 hours of confirming the breach.,DOC-005,5. Procedure > 5.5 Step 5: Communicate,N/A,yes,allowed,it,factual,
+Q036,When must a post-incident review be held?,Within 5 working days of closure for P1 and P2 incidents.,DOC-005,5. Procedure > 5.6 Step 6: Close and learn,N/A,yes,allowed,it,factual,
+Q037,What should I do if my laptop is stolen?,"Report it to the IT Service Desk within 1 hour of discovery (answered from the Information Security Policy, which the employee may access).",DOC-002,5. Acceptable Use of Company Assets,3,yes,allowed,employee,permission,
+Q038,How long is the probation period?,6 months.,DOC-006,7. Probation and Performance,N/A,yes,allowed,employee,factual,
+Q039,What happens at 14:00 on my first day?,"IT setup (laptop, email, VPN and multi-factor authentication) at the IT Service Desk.",DOC-006,3. Your First Day,N/A,yes,allowed,employee,table_lookup,
+Q040,Which training must I complete within 30 days of joining?,"Information security awareness, code of conduct and ethics, POSH, and workplace health and safety for office roles.",DOC-006,5. Compulsory Training,N/A,yes,allowed,employee,table_lookup,
+Q041,How much group health insurance cover do new employees get?,"INR 5,00,000 from the first day.",DOC-006,"6. Pay, Benefits and Leave",N/A,yes,allowed,employee,factual,
+Q042,What are the first response and resolution targets for a P1 support ticket?,First response 30 minutes; resolution within 4 hours.,DOC-007,3. Ticket Priority and Service Levels,N/A,yes,allowed,employee,table_lookup,
+Q043,When is a support ticket escalated to Level 4?,"When a P1 stays open for more than 4 hours, or the customer threatens to cancel the contract.",DOC-007,5. Escalation Matrix,N/A,yes,allowed,employee,table_lookup,
+Q044,What is the maximum goodwill credit and who approves it?,"Up to 10 percent of the order value, approved by the Head of Customer Support.",DOC-007,"6. Refunds, Replacements and Goodwill",N/A,yes,allowed,employee,table_lookup,
+Q045,How soon are approved refunds credited?,Within 7 working days after approval.,DOC-007,"6. Refunds, Replacements and Goodwill",N/A,yes,allowed,employee,factual,
+Q046,What was the total revenue in Q3 FY2026 and how did it compare with target?,"INR 4,244.9 lakh against a target of INR 4,238 lakh (100.2 percent).",DOC-008,Summary > Key results,N/A,yes,allowed,sales,table_lookup,Summary
+Q047,Which region had the highest Q3 revenue?,"South, with INR 1,346.5 lakh.",DOC-008,Regional,N/A,yes,allowed,sales,table_lookup,Regional
+Q048,Which product line was the largest in Q3?,"Industrial Valves, INR 1,032.6 lakh.",DOC-008,Products,N/A,yes,allowed,manager,table_lookup,Products
+Q049,Which region missed its Q3 target?,"West, at 96.9 percent of target.",DOC-008,Regional,N/A,yes,allowed,sales,table_lookup,Regional
+Q050,What was the largest open deal in the pipeline?,"Zenith Steel, INR 116.3 lakh, at the Negotiation stage.",DOC-008,Pipeline,N/A,yes,allowed,sales,table_lookup,Pipeline
+Q051,What was the total Q3 revenue?,Not found - the user is not authorised to access the Sales Report (DOC-008).,DOC-008,Summary > Key results,N/A,yes,denied,employee,permission,Summary
+Q052,What is the total department budget for FY2026-27 and by how much did it grow?,"INR 6,645 lakh, 11.4 percent above the FY2025-26 actual of INR 5,965 lakh.",DOC-009,Summary,N/A,yes,allowed,finance,table_lookup,Summary
+Q053,What is the Manufacturing department's total budget?,"INR 2,990 lakh.",DOC-009,Summary,N/A,yes,allowed,manager,table_lookup,Summary
+Q054,Which capital project is on hold?,"CAP-07 Showroom renovation, Coimbatore (INR 40 lakh).",DOC-009,Capex Projects,N/A,yes,allowed,finance,table_lookup,Capex Projects
+Q055,Who must approve budget transfers between departments above INR 10 lakh?,The Chief Financial Officer.,DOC-009,Assumptions,N/A,yes,allowed,finance,table_lookup,Assumptions
+Q056,What share of the annual budget is released in Q2?,"26 percent (about INR 1,728 lakh).",DOC-009,Quarterly Phasing,N/A,yes,allowed,finance,table_lookup,Quarterly Phasing
+Q057,Which capital projects are planned for the Information Technology department?,Not found - the user is not authorised to access the Budget (DOC-009).,DOC-009,Capex Projects,N/A,yes,denied,employee,permission,Capex Projects
+Q058,What were the category and priority of ticket TKT-20132?,Category: Invoice query; priority: P2.,DOC-010,Rows 1-12,N/A,yes,allowed,support,table_lookup,
+Q059,I am a G5 manager flying to Bengaluru for 2 nights. What hotel budget applies and how long do I have to claim the expenses?,"INR 6,000 per night (Tier 1 city, G4 to G6) and the claim must be submitted within 15 days of the trip end.",DOC-003,3. Eligibility by Grade ; 7. Claim Submission and Reimbursement > 7.1 Deadlines and documents,2 ; 3,yes,allowed,employee,multi_section,
+Q060,What should I do if I receive a suspicious email and who do I contact for any security incident?,Use the Report Phishing button in the mail client; report any incident to security@nimbus-industries.example or the IT Service Desk at extension 4444.,DOC-002,8. Email and Phishing Awareness ; 11. Security Incidents,4 ; 4,yes,allowed,employee,multi_section,
+Q061,What is the company policy on reimbursing cryptocurrency purchases?,Not found - the documents do not mention cryptocurrency.,,,,no,none,employee,unanswerable,
+Q062,How many days of sabbatical leave are available?,Not found - sabbatical leave is not covered in the documents.,,,,no,none,employee,unanswerable,
+Q063,Who is the current Chief Executive Officer of Nimbus Industries?,Not found - no document names the CEO.,,,,no,none,manager,unanswerable,
+Q064,What is the dress code for client meetings?,Not found - the documents do not define a dress code.,,,,no,none,employee,unanswerable,
+Q065,What are the sales targets for Q1 FY2027?,Not found - only Q3 FY2026 targets are available.,,,,no,none,sales,unanswerable,
+Q066,What is the maternity leave entitlement in the United States office?,Not found - the Leave Policy covers India locations only and no US policy exists in the documents.,,,,no,none,hr,unanswerable,

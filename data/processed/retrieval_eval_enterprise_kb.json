@@ -1,0 +1,17 @@
+{
+  "embedding_model": "nomic-ai/nomic-embed-text-v2-moe",
+  "answerable_questions": 55,
+  "recall_at_5": 0.964,
+  "recall_at_10": 1.0,
+  "mrr": 0.888,
+  "access_control_leaks": 0,
+  "missed_questions": [],
+  "top1_score": {
+    "answerable_median": 0.553,
+    "answerable_p10": 0.434,
+    "unanswerable_median": 0.404,
+    "unanswerable_p90": 0.539
+  },
+  "suggested_relevance_threshold": 0.487,
+  "note": "A threshold between the answerable p10 and the unanswerable p90 is a starting point; check it against real questions."
+}

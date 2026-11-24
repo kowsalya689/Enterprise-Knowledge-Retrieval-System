@@ -1,0 +1,12 @@
+document_id,file_name,file_type,title,department,access_level,access_tags,version,owner,effective_date,approx_pages,num_chunks,page_count_method
+DOC-001,DOC-001_HR_Leave_and_Attendance_Policy.docx,docx,Leave and Attendance Policy,Human Resources,Internal,all_employees,2.1,Head of Human Resources,2026-04-01,7,26,exact
+DOC-002,DOC-002_IT_Information_Security_Policy.pdf,pdf,Information Security Policy,Information Technology,Internal,all_employees,3.0,Chief Information Security Officer,2026-03-15,5,15,exact
+DOC-003,DOC-003_Finance_Travel_Reimbursement_Policy.pdf,pdf,Travel and Expense Reimbursement Policy,Finance,Internal,all_employees,1.4,Finance Controller,2026-05-01,4,16,exact
+DOC-004,DOC-004_Procurement_Policy.docx,docx,Procurement Policy,Procurement,Confidential,procurement|finance|management,2.0,Head of Procurement,2026-02-10,4,12,exact
+DOC-005,DOC-005_IT_Incident_Response_SOP.md,md,Incident Response Procedure (SOP),IT Security,Confidential,it|security|management,1.2,Security Operations Manager,2026-03-20,3,16,estimated (rendered to print layout)
+DOC-006,DOC-006_HR_Employee_Onboarding_Guide.html,html,Employee Onboarding Guide,Human Resources,Internal,all_employees,1.0,"HR Business Partner, Talent Onboarding",2026-01-12,6,11,estimated (rendered to print layout)
+DOC-007,DOC-007_Support_Escalation_SOP.txt,txt,Customer Support Escalation SOP,Customer Support,Internal,all_employees,1.1,Head of Customer Support,2026-02-25,3,8,estimated (rendered to print layout)
+DOC-008,DOC-008_Sales_Q3_FY2026_Report.xlsx,xlsx,Q3 FY2026 Sales Report,Sales,Confidential,sales|management,1.0,Head of Sales,2026-10-05,7,12,estimated (rendered to print layout)
+DOC-009,DOC-009_Finance_Budget_FY2026-27.xls,xls,Department Budget FY2026-27,Finance,Confidential,finance|management,1.0,Chief Financial Officer,2026-03-28,4,5,estimated (rendered to print layout)
+DOC-010,DOC-010_Support_Tickets_Aug_Sep_2026.csv,csv,Support Ticket Log Aug-Sep 2026,Customer Support,Internal,support|management,1.0,Head of Customer Support,2026-10-01,8,14,estimated (rendered to print layout)
+DOC-011,DOC-011_HR_Compensation_and_Salary_Bands.pdf,pdf,Compensation and Salary Band Guidelines,Human Resources,Restricted,hr|management,1.0,Head of Human Resources,2026-04-15,4,8,exact

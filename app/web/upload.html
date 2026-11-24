@@ -1,0 +1,76 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Upload Documents</title>
+<link rel="stylesheet" href="/static/app.css">
+</head>
+<body>
+<header><div class="bar">
+  <span class="brand">Enterprise Knowledge Retrieval</span>
+  <nav><a href="/chat">Ask</a><a href="/upload" aria-current="page">Upload</a><a href="/docs">API docs</a></nav>
+</div></header>
+<main>
+  <h1>Upload a document</h1>
+  <p class="lead">PDF, DOCX, XLSX, XLS, HTML, CSV, TXT or Markdown, up to 50 MB. The file is checked, split into chunks, embedded and stored. You can only give access tags that this page's role holds (all_employees by default).</p>
+
+  <form id="up" class="card">
+    <label for="file">Document</label>
+    <input id="file" type="file" accept=".pdf,.docx,.xlsx,.xls,.html,.htm,.csv,.txt,.md" required>
+    <div class="row" style="margin-top:12px">
+      <div><label for="tags">Access tags</label><input id="tags" type="text" value="all_employees" required>
+        <div class="hint">Comma separated, for example <code>hr,management</code>. Only people holding one of these tags can find the document.</div></div>
+      <div><label for="dept">Department</label><input id="dept" type="text" value="General" maxlength="80"></div>
+    </div>
+    <div style="display:flex;gap:12px;align-items:center;margin-top:14px;flex-wrap:wrap">
+      <button id="go" type="submit">Upload and index</button><span id="state" class="status" aria-live="polite"></span>
+    </div>
+    <div id="result"></div>
+  </form>
+
+  <div class="card">
+    <div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:8px">
+      <strong>Documents you can see</strong><span><span id="count" class="hint"></span> <button id="refresh" class="ghost" type="button" style="padding:4px 10px">Refresh</button></span>
+    </div>
+    <div id="docs"></div>
+  </div>
+</main>
+<script src="/static/app.js"></script>
+<script>
+const docs = document.getElementById("docs"), count = document.getElementById("count");
+const state = document.getElementById("state"), result = document.getElementById("result"), go = document.getElementById("go");
+const refresh = () => loadDocuments(docs, count);
+refresh();
+document.getElementById("refresh").addEventListener("click", refresh);
+
+document.getElementById("up").addEventListener("submit", async (ev) => {
+  ev.preventDefault();
+  const file = document.getElementById("file").files[0];
+  if (!file) return;
+  const form = new FormData();
+  form.append("file", file);
+  form.append("access_tags", document.getElementById("tags").value);
+  form.append("department", document.getElementById("dept").value || "General");
+  go.disabled = true; result.replaceChildren(); state.className = "status";
+  state.textContent = "Uploading, extracting, embedding… large files can take a minute.";
+  try {
+    const r = await api("/documents/upload", { method: "POST", body: form });
+    state.className = "status okc";
+    state.textContent = r.status === "indexed" ? "Indexed." : "Already indexed (identical content).";
+    result.append(el("div", { class: "card", style: "margin:12px 0 0" },
+      el("span", { class: "badge " + (r.status === "indexed" ? "b-ok" : "b-info"), text: r.status }),
+      el("div", { class: "hint", text: [r.file_name, "id " + r.document_id, "version " + r.version, r.chunks + " chunks",
+        r.pages ? r.pages + " pages" : null, r.seconds + " s", "tags: " + r.access_tags.join(", ")].filter(Boolean).join(" · ") }),
+      r.embedding_model ? el("div", { class: "hint", text: "Embedding: " + r.embedding_model + " (" + (r.embedding_dimension || "?") + " numbers per chunk)" }) : null,
+      r.chunking ? el("div", { class: "hint", text: "Chunking: up to " + r.chunking.max_words_per_chunk + " words per chunk, " + r.chunking.overlap_words
+        + " words overlap when a section is split, " + r.chunking.table_rows_per_chunk + " rows per spreadsheet chunk"
+        + (r.chunk_words_max ? " · longest chunk " + r.chunk_words_max + " words, average " + r.chunk_words_avg : "") }) : null));
+    refresh();
+  } catch (e) {
+    state.className = "status err";
+    state.textContent = e.status === 401 ? "The web pages are switched off (WEB_UI_ROLE is empty in .env)." : e.message;
+  } finally { go.disabled = false; }
+});
+</script>
+</body>
+</html>

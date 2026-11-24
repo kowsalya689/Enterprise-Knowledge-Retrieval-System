@@ -1,0 +1,36 @@
+{
+  "roles": {
+    "employee": [
+      "all_employees"
+    ],
+    "hr": [
+      "all_employees",
+      "hr"
+    ],
+    "finance": [
+      "all_employees",
+      "finance"
+    ],
+    "procurement": [
+      "all_employees",
+      "procurement"
+    ],
+    "it": [
+      "all_employees",
+      "it",
+      "security"
+    ],
+    "sales": [
+      "all_employees",
+      "sales"
+    ],
+    "support": [
+      "all_employees",
+      "support"
+    ],
+    "manager": [
+      "all_employees",
+      "management"
+    ]
+  }
+}

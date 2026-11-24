@@ -1,0 +1,93 @@
+CUSTOMER SUPPORT ESCALATION SOP
+===============================
+Nimbus Industries Pvt. Ltd. (fictional)
+
+DOCUMENT CONTROL
+----------------
+Document ID: DOC-007
+Title: Customer Support Escalation SOP
+Version: 1.1
+Owner: Head of Customer Support
+Department: Customer Support
+Classification: Internal
+Effective date: 2026-02-25
+Review cycle: Every 12 months
+
+1. PURPOSE
+----------
+This SOP explains how the Customer Support team at Nimbus Industries Pvt. Ltd. handles
+customer tickets, when a ticket must be escalated and what response times customers can
+expect. The goal is that every customer gets a clear answer within the agreed time.
+
+2. SUPPORT CHANNELS AND HOURS
+-----------------------------
+  * Channel: Email support@nimbus-industries.example; Availability: 24 hours, answered Monday to Saturday; Notes: Auto-acknowledgement is sent within 5 minutes.
+  * Channel: Phone helpline; Availability: 09:00 to 20:00, Monday to Saturday; Notes: Calls are recorded for quality.
+  * Channel: Web chat; Availability: 09:00 to 18:00, Monday to Friday; Notes: Chat is converted to a ticket if unresolved.
+  * Channel: Priority line for contract customers; Availability: 24x7; Notes: Only for P1 issues.
+
+3. TICKET PRIORITY AND SERVICE LEVELS
+-------------------------------------
+  * Priority: P1 Urgent; Definition: Customer production stopped or safety risk; First response: 30 minutes; Resolution target: 4 hours
+  * Priority: P2 High; Definition: Major function impaired, workaround exists; First response: 2 hours; Resolution target: 1 business day
+  * Priority: P3 Normal; Definition: Question or minor defect; First response: 8 business hours; Resolution target: 3 business days
+  * Priority: P4 Low; Definition: Feature request or general feedback; First response: 2 business days; Resolution target: Reviewed in monthly product meeting
+
+4. TICKET HANDLING PROCEDURE
+----------------------------
+- Log: every contact is logged as a ticket in the support system with customer name, order
+  number and issue.
+- Classify: the agent assigns a category and a priority using the table in Section 3.
+- Acknowledge: the customer is sent the ticket number and the expected response time.
+- Diagnose: the agent checks the knowledge base and the order history and tries to solve
+  the issue at first contact.
+- Update: the customer is updated at least every 24 hours on open tickets, and every 2
+  hours on P1 tickets.
+- Resolve: the agent confirms the fix with the customer before closing.
+- Close: tickets are closed after customer confirmation or after 5 business days without a
+  reply.
+
+5. ESCALATION MATRIX
+--------------------
+A ticket is escalated when the agent cannot resolve it within the agreed time or when it
+meets any criteria below.
+
+  * Level: Level 1; Handled by: Support agent; Escalate when: First contact; ticket is within the response time.
+  * Level: Level 2; Handled by: Senior support engineer; Escalate when: No resolution after 4 hours for P2, or 1 hour for P1.
+  * Level: Level 3; Handled by: Product or Engineering specialist; Escalate when: Suspected product defect or no resolution by Level 2 within 1 business day.
+  * Level: Level 4; Handled by: Head of Customer Support; Escalate when: Any P1 open for more than 4 hours, or customer threatens to cancel the contract.
+  * Level: Level 5; Handled by: Chief Operating Officer; Escalate when: Safety incident, legal threat or media attention.
+
+Safety-related complaints are always escalated to Level 4 immediately and copied to the
+Quality Head. Personal data requests (access or correction) are forwarded to the Data
+Protection Officer within 2 working days.
+
+6. REFUNDS, REPLACEMENTS AND GOODWILL
+-------------------------------------
+  * Situation: Wrong or damaged item reported within 7 days of delivery; Action: Free replacement or full refund; Approval: Support agent
+  * Situation: Refund request up to INR 5,000; Action: Process refund to the original payment method; Approval: Senior support engineer
+  * Situation: Refund request above INR 5,000; Action: Review with Finance; Approval: Head of Customer Support
+  * Situation: Goodwill credit; Action: Up to 10 percent of the order value; Approval: Head of Customer Support
+
+Refunds are credited within 7 working days after approval.
+
+7. COMMUNICATION STANDARDS
+--------------------------
+- Greet the customer by name and thank them for contacting Nimbus Industries.
+- Use plain language; avoid internal jargon and ticket codes in customer messages.
+- Never share another customer's information.
+- Do not promise delivery dates or refunds that have not been approved.
+- End each message with the next step and the date by which the customer will hear from
+  us.
+
+8. QUALITY AND REPORTING
+------------------------
+Team leads review 5 tickets per agent each week against the quality checklist. The
+customer satisfaction (CSAT) target is 90 percent and the target for first-contact
+resolution is 70 percent. Weekly reports show tickets by priority, SLA compliance,
+escalations and reopened tickets. The SOP is reviewed every 6 months.
+
+REVISION HISTORY
+----------------
+  * Version: 1.1; Date: 2026-02-25; Approved by: Head of Customer Support; Change summary: Current approved version
+  * Version: Previous; Date: 2025; Approved by: Head of Customer Support; Change summary: Annual review and wording updates

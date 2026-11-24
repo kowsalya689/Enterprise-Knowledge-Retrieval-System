@@ -1,0 +1,161 @@
+ticket_id,created_date,customer_segment,channel,category,priority,status,first_response_minutes,resolution_hours,escalation_level,assigned_team,csat_score
+TKT-20039,2026-08-01,Enterprise,Email,Invoice query,P3,Resolved,313,73.7,Level 1,Support L2,5
+TKT-20109,2026-08-01,Enterprise,Email,Warranty claim,P4,Resolved,739,98.1,Level 3,Engineering,5
+TKT-20118,2026-08-01,Small business,Phone,Product information,P2,Closed,23,18.2,Level 2,Finance,4
+TKT-20149,2026-08-01,Distributor,Email,Delivery delay,P3,Closed,48,48.6,Level 1,Support L1,
+TKT-20081,2026-08-02,Enterprise,Web chat,Return and refund,P3,Resolved,121,14.7,Level 1,Finance,3
+TKT-20036,2026-08-03,Small business,Phone,Product information,P4,Closed,862,195.0,Level 2,Finance,5
+TKT-20052,2026-08-03,Enterprise,Email,Technical support,P2,Closed,145,25.2,Level 1,Engineering,4
+TKT-20128,2026-08-03,Small business,Web chat,Return and refund,P2,Resolved,113,22.7,Level 1,Finance,4
+TKT-20023,2026-08-04,Distributor,Email,Technical support,P3,Closed,293,53.6,Level 2,Support L2,5
+TKT-20132,2026-08-04,Enterprise,Phone,Invoice query,P2,Closed,73,26.0,Level 2,Engineering,5
+TKT-20020,2026-08-05,Distributor,Phone,Warranty claim,P3,Closed,166,52.7,Level 1,Finance,2
+TKT-20093,2026-08-05,Small business,Phone,Product information,P3,Closed,450,31.7,Level 3,Support L2,5
+TKT-20152,2026-08-05,Small business,Phone,Delivery delay,P3,Closed,310,82.7,Level 1,Support L2,5
+TKT-20092,2026-08-06,Distributor,Email,Delivery delay,P3,Closed,228,84.5,Level 1,Support L1,4
+TKT-20098,2026-08-06,Distributor,Phone,Warranty claim,P3,Closed,160,74.1,Level 1,Support L2,2
+TKT-20082,2026-08-07,Distributor,Email,Return and refund,P4,Closed,1515,35.9,Level 3,Finance,4
+TKT-20157,2026-08-07,Distributor,Email,Warranty claim,P4,Closed,1384,85.9,Level 2,Engineering,5
+TKT-20087,2026-08-08,Distributor,Email,Technical support,P2,Closed,135,7.1,Level 1,Finance,5
+TKT-20111,2026-08-08,Distributor,Email,Damaged item,P4,Closed,1373,73.9,Level 2,Support L2,5
+TKT-20046,2026-08-09,Distributor,Web chat,Invoice query,P3,Open,369,58.3,Level 1,Finance,3
+TKT-20112,2026-08-09,Distributor,Web chat,Invoice query,P3,Open,467,85.6,Level 1,Support L1,2
+TKT-20137,2026-08-09,Enterprise,Phone,Delivery delay,P3,Open,166,64.8,Level 1,Support L2,4
+TKT-20089,2026-08-11,Distributor,Email,Damaged item,P2,Closed,25,14.5,Level 2,Finance,5
+TKT-20059,2026-08-12,Distributor,Phone,Product information,P3,Closed,220,63.7,Level 1,Engineering,
+TKT-20091,2026-08-12,Small business,Web chat,Product information,P4,Closed,1918,36.8,Level 1,Support L1,4
+TKT-20103,2026-08-12,Distributor,Phone,Technical support,P2,Closed,48,15.4,Level 1,Finance,
+TKT-20138,2026-08-12,Small business,Web chat,Product information,P3,Closed,234,87.3,Level 1,Support L2,5
+TKT-20019,2026-08-13,Enterprise,Phone,Product information,P3,Closed,142,72.5,Level 2,Support L2,2
+TKT-20048,2026-08-13,Small business,Web chat,Invoice query,P4,Closed,1182,149.4,Level 2,Support L1,5
+TKT-20096,2026-08-13,Small business,Phone,Invoice query,P2,Closed,123,29.9,Level 2,Finance,5
+TKT-20004,2026-08-14,Enterprise,Phone,Return and refund,P2,Closed,90,10.0,Level 2,Support L2,4
+TKT-20005,2026-08-14,Enterprise,Web chat,Delivery delay,P3,Resolved,321,18.9,Level 1,Support L2,4
+TKT-20075,2026-08-14,Enterprise,Web chat,Product information,P3,Closed,202,80.9,Level 2,Support L1,4
+TKT-20090,2026-08-14,Small business,Phone,Delivery delay,P4,Resolved,1839,147.8,Level 2,Finance,4
+TKT-20037,2026-08-15,Enterprise,Web chat,Technical support,P3,Closed,234,42.3,Level 1,Finance,3
+TKT-20042,2026-08-15,Enterprise,Email,Damaged item,P3,Closed,146,10.6,Level 1,Engineering,2
+TKT-20086,2026-08-15,Small business,Web chat,Product information,P3,Closed,109,19.2,Level 1,Support L1,2
+TKT-20117,2026-08-16,Small business,Phone,Product information,P4,Closed,183,101.1,Level 1,Engineering,4
+TKT-20120,2026-08-16,Small business,Web chat,Product information,P3,Closed,462,82.6,Level 2,Engineering,5
+TKT-20122,2026-08-17,Distributor,Phone,Technical support,P2,Closed,133,5.4,Level 1,Engineering,5
+TKT-20014,2026-08-18,Small business,Email,Delivery delay,P2,Closed,24,22.1,Level 1,Finance,5
+TKT-20055,2026-08-18,Distributor,Email,Invoice query,P3,Open,209,22.9,Level 1,Support L1,4
+TKT-20065,2026-08-18,Small business,Email,Product information,P3,Closed,217,25.9,Level 1,Engineering,4
+TKT-20135,2026-08-18,Distributor,Phone,Invoice query,P3,Closed,426,17.4,Level 1,Finance,3
+TKT-20160,2026-08-18,Enterprise,Phone,Product information,P3,Open,95,28.5,Level 2,Finance,4
+TKT-20034,2026-08-19,Small business,Web chat,Warranty claim,P4,Closed,280,104.3,Level 2,Engineering,4
+TKT-20007,2026-08-20,Small business,Phone,Technical support,P2,Open,109,20.3,Level 1,Support L1,5
+TKT-20026,2026-08-20,Small business,Web chat,Warranty claim,P3,Closed,401,51.6,Level 4,Engineering,5
+TKT-20147,2026-08-20,Small business,Phone,Warranty claim,P3,Closed,169,50.0,Level 3,Finance,5
+TKT-20053,2026-08-21,Enterprise,Web chat,Return and refund,P3,Closed,31,62.0,Level 1,Support L2,4
+TKT-20072,2026-08-21,Enterprise,Web chat,Warranty claim,P4,Closed,138,93.3,Level 2,Engineering,2
+TKT-20088,2026-08-21,Enterprise,Email,Damaged item,P4,Closed,870,145.1,Level 1,Engineering,2
+TKT-20110,2026-08-21,Enterprise,Email,Product information,P4,Closed,810,154.7,Level 1,Engineering,3
+TKT-20158,2026-08-21,Small business,Phone,Technical support,P4,Resolved,1715,52.4,Level 1,Support L1,4
+TKT-20002,2026-08-22,Enterprise,Web chat,Warranty claim,P1,Closed,16,5.7,Level 1,Support L2,4
+TKT-20016,2026-08-22,Distributor,Email,Invoice query,P3,Closed,399,19.9,Level 1,Support L2,5
+TKT-20021,2026-08-22,Distributor,Phone,Product information,P1,Closed,26,4.4,Level 3,Finance,4
+TKT-20061,2026-08-22,Distributor,Email,Delivery delay,P2,Resolved,39,13.5,Level 1,Support L2,4
+TKT-20141,2026-08-22,Distributor,Phone,Invoice query,P4,Resolved,702,90.7,Level 1,Engineering,4
+TKT-20144,2026-08-22,Small business,Web chat,Delivery delay,P3,Closed,242,49.2,Level 1,Finance,
+TKT-20028,2026-08-24,Enterprise,Web chat,Warranty claim,P3,Resolved,99,37.8,Level 1,Support L2,4
+TKT-20077,2026-08-24,Enterprise,Email,Delivery delay,P3,Open,34,38.4,Level 2,Support L1,5
+TKT-20123,2026-08-24,Enterprise,Phone,Delivery delay,P3,Open,86,55.2,Level 1,Engineering,5
+TKT-20043,2026-08-25,Distributor,Web chat,Damaged item,P3,Closed,77,18.7,Level 3,Engineering,4
+TKT-20054,2026-08-25,Enterprise,Email,Product information,P2,Closed,58,27.8,Level 4,Support L1,
+TKT-20070,2026-08-25,Small business,Web chat,Return and refund,P2,Resolved,112,18.4,Level 1,Finance,
+TKT-20051,2026-08-26,Small business,Web chat,Technical support,P4,Closed,511,181.0,Level 1,Support L1,4
+TKT-20078,2026-08-26,Distributor,Email,Damaged item,P3,Closed,280,16.9,Level 1,Finance,3
+TKT-20085,2026-08-26,Small business,Email,Product information,P3,Resolved,222,89.7,Level 1,Support L2,3
+TKT-20031,2026-08-27,Enterprise,Email,Product information,P2,Open,104,9.0,Level 1,Support L2,5
+TKT-20062,2026-08-27,Distributor,Phone,Invoice query,P3,Closed,436,68.3,Level 1,Finance,5
+TKT-20084,2026-08-27,Distributor,Web chat,Technical support,P2,Closed,34,10.0,Level 1,Support L1,4
+TKT-20079,2026-08-28,Enterprise,Phone,Technical support,P2,Closed,148,22.1,Level 2,Support L1,4
+TKT-20097,2026-08-28,Distributor,Web chat,Return and refund,P4,Closed,751,113.6,Level 3,Support L1,3
+TKT-20056,2026-08-29,Small business,Web chat,Invoice query,P3,Closed,427,26.6,Level 1,Engineering,5
+TKT-20067,2026-08-29,Enterprise,Phone,Delivery delay,P4,Closed,625,50.7,Level 1,Finance,4
+TKT-20068,2026-08-29,Small business,Email,Warranty claim,P3,Closed,97,83.9,Level 1,Engineering,5
+TKT-20027,2026-08-30,Enterprise,Phone,Damaged item,P3,Closed,418,51.3,Level 2,Support L2,5
+TKT-20126,2026-08-30,Enterprise,Phone,Return and refund,P2,Closed,95,24.3,Level 1,Engineering,4
+TKT-20045,2026-09-01,Small business,Email,Product information,P2,Closed,97,29.8,Level 1,Support L1,5
+TKT-20080,2026-09-01,Enterprise,Phone,Damaged item,P1,Resolved,6,5.7,Level 1,Support L1,2
+TKT-20159,2026-09-01,Small business,Web chat,Return and refund,P4,Closed,1356,47.2,Level 4,Engineering,2
+TKT-20041,2026-09-02,Distributor,Email,Product information,P4,Resolved,656,25.3,Level 2,Support L2,5
+TKT-20069,2026-09-02,Small business,Web chat,Product information,P1,Closed,25,5.9,Level 2,Finance,2
+TKT-20099,2026-09-02,Small business,Web chat,Damaged item,P3,Closed,203,37.0,Level 1,Support L2,2
+TKT-20143,2026-09-02,Distributor,Email,Product information,P3,Resolved,91,25.3,Level 1,Engineering,4
+TKT-20105,2026-09-03,Small business,Email,Product information,P3,Closed,299,80.0,Level 3,Engineering,4
+TKT-20130,2026-09-03,Distributor,Phone,Return and refund,P3,Closed,77,9.4,Level 1,Engineering,
+TKT-20153,2026-09-03,Small business,Email,Warranty claim,P2,Closed,128,11.5,Level 1,Engineering,2
+TKT-20035,2026-09-04,Small business,Web chat,Technical support,P3,Closed,446,11.4,Level 1,Support L1,4
+TKT-20071,2026-09-04,Enterprise,Email,Technical support,P4,Closed,358,185.1,Level 3,Support L2,5
+TKT-20140,2026-09-04,Small business,Phone,Product information,P3,Closed,334,43.3,Level 2,Support L1,5
+TKT-20151,2026-09-04,Small business,Email,Technical support,P2,Closed,47,7.5,Level 1,Finance,5
+TKT-20015,2026-09-05,Enterprise,Web chat,Product information,P3,Closed,407,81.7,Level 1,Finance,2
+TKT-20029,2026-09-05,Enterprise,Email,Product information,P2,Closed,28,25.3,Level 2,Support L2,4
+TKT-20033,2026-09-05,Distributor,Web chat,Invoice query,P3,Closed,118,85.7,Level 1,Finance,
+TKT-20134,2026-09-05,Small business,Email,Invoice query,P3,Closed,76,25.4,Level 1,Finance,3
+TKT-20136,2026-09-05,Distributor,Phone,Invoice query,P3,Closed,43,39.5,Level 1,Engineering,5
+TKT-20018,2026-09-06,Distributor,Web chat,Warranty claim,P4,Closed,1655,70.7,Level 2,Finance,2
+TKT-20154,2026-09-06,Distributor,Web chat,Technical support,P3,Closed,120,17.2,Level 1,Support L1,3
+TKT-20025,2026-09-07,Distributor,Web chat,Return and refund,P2,Resolved,84,4.6,Level 2,Engineering,5
+TKT-20094,2026-09-07,Small business,Phone,Technical support,P3,Closed,124,73.8,Level 2,Engineering,3
+TKT-20121,2026-09-07,Small business,Phone,Delivery delay,P2,Resolved,86,15.8,Level 3,Support L2,3
+TKT-20076,2026-09-09,Distributor,Phone,Warranty claim,P2,Resolved,101,11.0,Level 1,Support L1,4
+TKT-20083,2026-09-10,Enterprise,Web chat,Technical support,P3,Closed,315,78.5,Level 1,Engineering,5
+TKT-20008,2026-09-11,Small business,Email,Invoice query,P4,Resolved,1999,178.6,Level 1,Engineering,3
+TKT-20009,2026-09-12,Enterprise,Phone,Warranty claim,P3,Closed,317,58.8,Level 1,Finance,2
+TKT-20013,2026-09-12,Enterprise,Web chat,Damaged item,P3,Closed,433,59.5,Level 3,Engineering,5
+TKT-20066,2026-09-12,Enterprise,Web chat,Warranty claim,P2,Closed,84,19.3,Level 2,Engineering,3
+TKT-20012,2026-09-13,Enterprise,Web chat,Return and refund,P3,Closed,270,78.7,Level 3,Support L2,5
+TKT-20124,2026-09-13,Distributor,Web chat,Invoice query,P3,Closed,193,25.1,Level 1,Engineering,
+TKT-20131,2026-09-13,Distributor,Web chat,Return and refund,P3,Closed,463,26.9,Level 1,Support L2,5
+TKT-20001,2026-09-14,Distributor,Web chat,Damaged item,P3,Closed,92,74.0,Level 1,Support L1,2
+TKT-20095,2026-09-14,Enterprise,Web chat,Product information,P3,Closed,461,63.7,Level 2,Finance,5
+TKT-20114,2026-09-14,Small business,Web chat,Warranty claim,P1,Closed,27,2.9,Level 1,Engineering,5
+TKT-20142,2026-09-14,Small business,Email,Delivery delay,P3,Open,273,45.6,Level 2,Engineering,5
+TKT-20003,2026-09-15,Distributor,Phone,Technical support,P3,Closed,169,39.4,Level 1,Finance,
+TKT-20047,2026-09-15,Distributor,Phone,Product information,P3,Closed,146,77.4,Level 1,Finance,5
+TKT-20063,2026-09-15,Distributor,Phone,Product information,P4,Closed,607,93.9,Level 1,Support L1,5
+TKT-20119,2026-09-15,Distributor,Phone,Invoice query,P4,Closed,579,141.3,Level 1,Support L1,5
+TKT-20145,2026-09-15,Distributor,Email,Product information,P3,Closed,380,67.5,Level 1,Support L1,3
+TKT-20146,2026-09-15,Distributor,Phone,Warranty claim,P4,Closed,1736,129.1,Level 1,Finance,
+TKT-20017,2026-09-16,Enterprise,Web chat,Warranty claim,P2,Closed,144,5.9,Level 1,Engineering,
+TKT-20022,2026-09-16,Enterprise,Email,Return and refund,P1,Closed,40,3.9,Level 3,Support L1,5
+TKT-20106,2026-09-16,Enterprise,Phone,Invoice query,P3,Closed,180,48.7,Level 1,Support L1,2
+TKT-20156,2026-09-16,Enterprise,Email,Damaged item,P1,Closed,17,5.7,Level 4,Finance,4
+TKT-20044,2026-09-17,Enterprise,Web chat,Product information,P3,Closed,30,48.8,Level 1,Engineering,5
+TKT-20050,2026-09-17,Small business,Phone,Return and refund,P2,Closed,52,21.7,Level 2,Engineering,5
+TKT-20032,2026-09-18,Enterprise,Email,Product information,P2,Closed,128,9.4,Level 3,Support L1,5
+TKT-20148,2026-09-18,Small business,Web chat,Warranty claim,P3,Closed,185,11.7,Level 3,Support L2,2
+TKT-20155,2026-09-18,Small business,Email,Delivery delay,P3,Closed,452,83.6,Level 1,Support L1,4
+TKT-20073,2026-09-19,Distributor,Phone,Product information,P3,Closed,132,79.7,Level 2,Engineering,4
+TKT-20101,2026-09-21,Small business,Email,Warranty claim,P3,Closed,417,9.0,Level 3,Engineering,4
+TKT-20116,2026-09-21,Distributor,Email,Delivery delay,P2,Open,37,20.9,Level 1,Support L2,5
+TKT-20058,2026-09-23,Small business,Web chat,Delivery delay,P3,Closed,165,8.2,Level 1,Finance,2
+TKT-20100,2026-09-23,Enterprise,Email,Delivery delay,P2,Closed,28,15.5,Level 3,Finance,2
+TKT-20129,2026-09-23,Enterprise,Web chat,Return and refund,P3,Resolved,213,12.9,Level 1,Engineering,5
+TKT-20104,2026-09-24,Small business,Phone,Warranty claim,P2,Closed,64,19.0,Level 1,Support L2,4
+TKT-20006,2026-09-25,Distributor,Email,Delivery delay,P3,Closed,179,13.2,Level 3,Support L1,5
+TKT-20038,2026-09-25,Small business,Web chat,Delivery delay,P3,Closed,403,32.2,Level 1,Support L2,4
+TKT-20060,2026-09-25,Distributor,Phone,Technical support,P1,Closed,31,1.1,Level 1,Engineering,3
+TKT-20064,2026-09-25,Enterprise,Email,Damaged item,P3,Closed,250,51.0,Level 1,Support L1,5
+TKT-20113,2026-09-25,Enterprise,Web chat,Return and refund,P3,Open,253,34.9,Level 1,Support L2,5
+TKT-20127,2026-09-25,Enterprise,Phone,Warranty claim,P4,Closed,267,164.3,Level 1,Support L2,
+TKT-20108,2026-09-26,Distributor,Email,Invoice query,P3,Resolved,89,8.1,Level 1,Support L1,5
+TKT-20150,2026-09-26,Distributor,Email,Product information,P3,Closed,190,79.9,Level 1,Engineering,3
+TKT-20011,2026-09-27,Distributor,Web chat,Warranty claim,P3,Resolved,350,11.1,Level 2,Engineering,3
+TKT-20074,2026-09-27,Enterprise,Phone,Return and refund,P4,Open,1002,78.3,Level 1,Engineering,4
+TKT-20107,2026-09-27,Distributor,Web chat,Warranty claim,P4,Closed,1817,156.9,Level 1,Support L1,3
+TKT-20049,2026-09-28,Enterprise,Email,Warranty claim,P3,Closed,136,52.1,Level 1,Support L2,5
+TKT-20057,2026-09-28,Enterprise,Web chat,Return and refund,P3,Resolved,300,28.6,Level 1,Finance,4
+TKT-20102,2026-09-28,Distributor,Phone,Technical support,P4,Open,1497,174.4,Level 1,Finance,5
+TKT-20010,2026-09-29,Enterprise,Email,Delivery delay,P3,Closed,426,66.8,Level 1,Finance,2
+TKT-20030,2026-09-29,Enterprise,Web chat,Warranty claim,P3,Closed,183,15.5,Level 1,Support L1,3
+TKT-20040,2026-09-29,Small business,Web chat,Delivery delay,P4,Closed,1978,165.3,Level 1,Finance,3
+TKT-20115,2026-09-29,Small business,Web chat,Delivery delay,P2,Closed,40,16.8,Level 1,Engineering,5
+TKT-20133,2026-09-29,Small business,Web chat,Damaged item,P3,Resolved,175,14.5,Level 1,Support L2,4
+TKT-20139,2026-09-29,Enterprise,Email,Technical support,P4,Closed,136,84.3,Level 1,Finance,2
+TKT-20024,2026-09-30,Small business,Web chat,Invoice query,P2,Closed,54,14.9,Level 4,Engineering,
+TKT-20125,2026-09-30,Distributor,Email,Damaged item,P2,Closed,43,7.5,Level 1,Finance,5

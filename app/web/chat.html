@@ -1,0 +1,100 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Ask the Documents</title>
+<link rel="stylesheet" href="/static/app.css">
+</head>
+<body>
+<header><div class="bar">
+  <span class="brand">Enterprise Knowledge Retrieval</span>
+  <nav><a href="/chat" aria-current="page">Ask</a><a href="/upload">Upload</a><a href="/docs">API docs</a></nav>
+</div></header>
+<main>
+  <h1>Ask a question</h1>
+  <p class="lead">Answers come only from the documents this page may see, and always show their source. <span id="visible"></span></p>
+
+  <div id="log" aria-live="polite"></div>
+
+  <form id="ask" class="card">
+    <label for="q">Your question</label>
+    <textarea id="q" maxlength="1000" placeholder="e.g. What is the hotel limit per night for a G5 manager in Chennai?" required></textarea>
+    <div style="display:flex;gap:12px;align-items:center;margin-top:10px;flex-wrap:wrap">
+      <button id="send" type="submit">Ask</button>
+      <label style="display:flex;gap:6px;align-items:center;margin:0;font-weight:500"><input id="debug" type="checkbox"> Show retrieval details</label>
+      <span id="state" class="hint"></span>
+    </div>
+    <div class="chips" id="examples"></div>
+  </form>
+</main>
+<script src="/static/app.js"></script>
+<script>
+const log = document.getElementById("log"), q = document.getElementById("q"), send = document.getElementById("send");
+const state = document.getElementById("state");
+
+(async () => {
+  try { const d = await api("/documents"); document.getElementById("visible").textContent = d.count + " documents available."; }
+  catch (e) { document.getElementById("visible").textContent = e.status === 401 ? "The web pages are switched off (WEB_UI_ROLE is empty)." : ""; }
+})();
+
+const EXAMPLES = ["How many days of annual leave does an employee get each year?",
+  "How soon must I report a lost or stolen laptop?", "What is the capital of France?"];
+for (const text of EXAMPLES) {
+  const chip = el("button", { type: "button", class: "chip", text });
+  chip.addEventListener("click", () => { q.value = text; q.focus(); });
+  document.getElementById("examples").append(chip);
+}
+
+function render(question, r, debug) {
+  const card = el("div", { class: "card" });
+  const badges = el("div");
+  if (r.status === "answered") badges.append(el("span", { class: "badge b-ok", text: "Answered" }));
+  else badges.append(el("span", { class: "badge b-warn", text: "Not found" }));
+  if (r.cached) badges.append(el("span", { class: "badge b-info",
+    text: "From cache (" + r.cache_match + (r.cache_similarity ? ", similarity " + r.cache_similarity : "") + ")" }));
+  card.append(badges, el("div", { class: "answer", text: r.answer }));
+
+  if (r.citations.length) {
+    const box = el("div", { class: "cites" }, el("div", { class: "hint", text: "Sources" }));
+    for (const c of r.citations) {
+      const where = [c.section, c.page ? "page " + c.page : null, c.sheet ? "sheet " + c.sheet : null].filter(Boolean).join(" · ");
+      box.append(el("div", { class: "cite" },
+        el("span", {}, el("b", { text: "[" + c.number + "] " }), c.document_name),
+        el("div", { class: "hint", text: where + " · score " + c.score }),
+        el("details", {}, el("summary", { text: "Show passage" }), el("div", { text: c.snippet }))));
+    }
+    card.append(box);
+  }
+  const t = r.timings_ms || {};
+  card.append(el("div", { class: "meta", text: "Top retrieval score: " + (r.top_score ?? "n/a") +
+    " · total " + (t.total ?? "?") + " ms" + (r.reason ? " · reason: " + r.reason : "") }));
+
+  if (debug && r.retrieved) {
+    const rows = r.retrieved.map(x => el("tr", {}, el("td", { text: String(x.rank) }), el("td", { text: String(x.score) }),
+      el("td", { text: x.kept ? "kept" : "below cutoff" }), el("td", { text: x.document_id + " · " + x.section })));
+    card.append(el("details", {}, el("summary", { text: "Retrieved chunks (" + r.retrieved.length + ")" }),
+      el("table", {}, el("thead", {}, el("tr", {}, ...["#", "Score", "Cutoff", "Where"].map(h => el("th", { text: h })))), el("tbody", {}, ...rows))));
+  }
+  log.append(el("div", { class: "msg-q", text: question }), card);
+  card.scrollIntoView({ behavior: "smooth", block: "nearest" });
+}
+
+document.getElementById("ask").addEventListener("submit", async (ev) => {
+  ev.preventDefault();
+  const question = q.value.trim();
+  if (question.length < 3) return;
+  send.disabled = true; state.textContent = "Searching and writing the answer…"; state.className = "hint";
+  const debug = document.getElementById("debug").checked;
+  try {
+    const r = await api("/query", { method: "POST", headers: { "Content-Type": "application/json" },
+      body: JSON.stringify({ question, debug }) });
+    render(question, r, debug); q.value = ""; state.textContent = "";
+  } catch (e) {
+    state.className = "hint err";
+    state.textContent = e.status === 401 ? "Enter a valid API key at the top right." : e.message;
+  } finally { send.disabled = false; }
+});
+q.addEventListener("keydown", (e) => { if (e.key === "Enter" && !e.shiftKey) { e.preventDefault(); document.getElementById("ask").requestSubmit(); } });
+</script>
+</body>
+</html>

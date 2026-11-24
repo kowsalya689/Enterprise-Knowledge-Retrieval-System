@@ -1,0 +1,63 @@
+question_id,document_id,section_path,page_number,evidence_phrase
+Q001,DOC-001,5. Types of Leave,3,"18 days, accrued at 1.5 days per month"
+Q002,DOC-001,5. Types of Leave > 5.2 Casual leave,4,maximum of 3 consecutive days
+Q003,DOC-001,5. Types of Leave > 5.3 Sick leave,4,exceeds 2 consecutive working days
+Q004,DOC-001,4. Working Hours and Attendance > 4.2 Grace period and late marks,3,Three late marks in a calendar month
+Q005,DOC-001,6. Applying for and Approving Leave > 6.1 Planned leave,4,More than 5 consecutive days; Minimum advance notice: 7 working days
+Q006,DOC-001,9. Carry Forward and Encashment,5,up to 10 days of accrued annual leave
+Q007,DOC-001,5. Types of Leave > 5.4 Maternity and paternity leave,4,10 working days
+Q008,DOC-001,5. Types of Leave > 5.1 Annual leave,3,cannot exceed 30 days
+Q009,DOC-001,8. Remote Work,5,up to 2 days per week
+Q010,DOC-001,12. Frequently Asked Questions > Who approves my leave if my manager is away?,6,routes the request to the department head
+Q011,DOC-002,4. Password and Authentication Standard,3,Minimum length; Standard: 12 characters
+Q012,DOC-002,9. Vulnerability and Patch Management,4,Within 48 hours
+Q013,DOC-002,5. Acceptable Use of Company Assets,3,within 1 hour of discovery
+Q014,DOC-002,4. Password and Authentication Standard,3,Account locked for 30 minutes after 5 failed attempts
+Q015,DOC-002,7. Data Protection and Encryption,4,retained for 35 days
+Q016,DOC-002,5. Acceptable Use of Company Assets,3,after 5 minutes of inactivity
+Q017,DOC-003,3. Eligibility by Grade,2,"Hotel limit per night (Tier 1 cities); G1 to G3: INR 4,000; G4 to G6: INR 6,000"
+Q018,DOC-003,7. Claim Submission and Reimbursement > 7.1 Deadlines and documents,3,within 15 days of the end of the trip
+Q019,DOC-003,5. Reimbursable Expenses > 5.1 Local conveyance and mileage,3,INR 12 per kilometre
+Q020,DOC-003,2. Travel Approval,2,International trip; Approver: Department head and Finance Controller; Lead time: At least 15 working days
+Q021,DOC-003,6. Advances,3,up to 80 percent of the estimated trip cost
+Q022,DOC-003,7. Claim Submission and Reimbursement > 7.1 Deadlines and documents,3,every expense of INR 500 or more
+Q023,DOC-003,3. Eligibility by Grade,2,Daily meal allowance (domestic); G1 to G3: INR 800
+Q024,DOC-004,4. Purchase Approval Limits,2,"2,00,001 to 10,00,000; Minimum quotes: 3; Approval required: Department head and Finance Controller"
+Q025,DOC-004,5. Procure-to-Pay Process > 5.2 Payment terms,3,45 days from the date of a valid invoice
+Q026,DOC-004,5. Procure-to-Pay Process > 5.1 Steps,2,three-way match
+Q027,DOC-004,3. Principles,2,"gifts above INR 2,000"
+Q028,DOC-004,4. Purchase Approval Limits,2,"2,00,001 to 10,00,000"
+Q029,DOC-011,3. Salary Bands,2,"Grade: G5; Typical role: Manager; Minimum (INR): 11,00,000; Midpoint (INR): 13,20,000; Maximum (INR): 15,40,000"
+Q030,DOC-011,5. Annual Increment Cycle,3,Rating: 4; Description: Exceeds expectations; Recommended increment: 8 to 11 percent
+Q031,DOC-011,3. Salary Bands,2,Grade: G5
+Q032,DOC-011,7. Allowances and Other Payments,3,On-call allowance
+Q033,DOC-011,4. Variable Pay and Bonus,2,G7 and above; Target variable pay: 20 percent of fixed pay
+Q034,DOC-005,3. Severity Classification,,P1 Critical
+Q035,DOC-005,5. Procedure > 5.5 Step 5: Communicate,,within 72 hours
+Q036,DOC-005,5. Procedure > 5.6 Step 6: Close and learn,,within 5 working days of closure
+Q037,DOC-002,5. Acceptable Use of Company Assets,3,within 1 hour of discovery
+Q038,DOC-006,7. Probation and Performance,,probation period is 6 months
+Q039,DOC-006,3. Your First Day,,14:00; Activity: IT setup
+Q040,DOC-006,5. Compulsory Training,,Information security awareness; Duration: 1 hour; Complete within: 30 days of joining
+Q041,DOC-006,"6. Pay, Benefits and Leave",,"INR 5,00,000"
+Q042,DOC-007,3. Ticket Priority and Service Levels,,P1 Urgent
+Q043,DOC-007,5. Escalation Matrix,,Any P1 open for more than 4 hours
+Q044,DOC-007,"6. Refunds, Replacements and Goodwill",,Up to 10 percent of the order value
+Q045,DOC-007,"6. Refunds, Replacements and Goodwill",,within 7 working days after approval
+Q046,DOC-008,Summary > Key results,,Total Q3 revenue (INR lakh); Value: 4244.9
+Q047,DOC-008,Regional,,Region: South; Revenue: 1346.5
+Q048,DOC-008,Products,,Product line: Industrial Valves; Revenue: 1032.6
+Q049,DOC-008,Regional,,Region: West
+Q050,DOC-008,Pipeline,,Customer: Zenith Steel
+Q051,DOC-008,Summary > Key results,,Total Q3 revenue (INR lakh)
+Q052,DOC-009,Summary,,Department: Total
+Q053,DOC-009,Summary,,Department: Manufacturing; Salaries: 940; Operating expenses: 1250; Capital expenditure: 800; Total budget: 2990
+Q054,DOC-009,Capex Projects,,Status: On hold
+Q055,DOC-009,Assumptions,,Transfers between departments above INR 10 lakh need CFO approval
+Q056,DOC-009,Quarterly Phasing,,Quarter: Q2 (July to September 2026); Share of annual budget %: 26
+Q057,DOC-009,Capex Projects,,Department: Information Technology
+Q058,DOC-010,Rows 1-12,,ticket_id: TKT-20132
+Q059,DOC-003,3. Eligibility by Grade,2,Hotel limit per night (Tier 1 cities)
+Q059,DOC-003,7. Claim Submission and Reimbursement > 7.1 Deadlines and documents,3,within 15 days of the end of the trip
+Q060,DOC-002,8. Email and Phishing Awareness,4,Report Phishing button
+Q060,DOC-002,11. Security Incidents,4,security@nimbus-industries.example
